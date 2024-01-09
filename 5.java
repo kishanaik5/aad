@@ -48,13 +48,5 @@ else if(!isValidEmailAddress(email.getText().toString())) {
 Toast.makeText(this,"Invalid Email
 ID",Toast.LENGTH_LONG).show();
 }
-else {
-Intent obj = new Intent(this,secondactivity.class);
-obj.putExtra("Uname",uname.getText().toString());
-obj.putExtra("Pwd", pwd.getText().toString());
-obj.putExtra("Mobile", phno.getText().toString());
-obj.putExtra("Email", email.getText().toString());
-startActivity(obj);
-}
 }
 }
