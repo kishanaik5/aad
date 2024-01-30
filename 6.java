@@ -35,7 +35,8 @@ Toast.makeText(getBaseContext(),"You have selected " + strDate, Toast.LENGTH_SHO
 };
 public void onClick(View view) {
 Toast.makeText(getBaseContext(),
-"Date selected:" + (datePicker.getMonth() + 1) + "/" + datePicker.getDayOfMonth() + "/" + datePicker.getYear() + "\n" + "Time selected:" + timePicker.getHour() + ":" + timePicker.getMinute(),
+"Date selected:" + (datePicker.getMonth() + 1) + "/" + datePicker.getDayOfMonth() + "/" + datePicker.getYear() + "\n" + 
+"Time selected:" + timePicker.getHour() + ":" + timePicker.getMinute(),
 Toast.LENGTH_SHORT).show();
 }
 }
